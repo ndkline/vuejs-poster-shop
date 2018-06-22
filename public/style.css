@@ -209,9 +209,9 @@ h1 {
     border-bottom: 1px solid #E9E9E9;
 }
 
-.cart ul .cart-item .item-title {
+/* .cart ul .cart-item .item-title {
 
-}
+} */
 
 .cart ul .cart-item .item-price {
     font-weight: bold;
@@ -229,3 +229,10 @@ h1 {
 .cart ul .cart-item button {
     margin-right: 3px;
 }
+.fliph {
+    display: inline-block;
+    vertical-align: top;
+    transform: scaleX(-1); /* Or also:   rotateY(180deg) */
+    -ms-filter: fliph;
+    filter: fliph;
+  }
