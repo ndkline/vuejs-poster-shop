@@ -4,6 +4,7 @@ var path = require('path');
 var server = require('http').createServer(app);
 var axios = require('axios');
 var querystring = require('querystring');
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 require('dotenv').config();
 
